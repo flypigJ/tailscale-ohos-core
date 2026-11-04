@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "status": "blocked",
+  "date": "2026-11-05",
+  "device_arch": "aarch64",
+  "device_api": "26",
+  "device_os": "OpenHarmony-7.0.0.111",
+  "scope": "Direct execution of an isolated native loader through HDC shell",
+  "files_sha256": {
+    "loader": "d7b34b62720438faf4f5278d0d79b372aec2416d87d2a835478ec29eacfd70a8",
+    "libohos_example.so": "391e21ac70da4f9a06f57f01e95334b04b067b83d70d8551a22ea3f85aa09d74",
+    "smoke": "95a6787b1f838478e66703b0e4bc124fa64c558b6516d865fa75b3ffabd2330a",
+    "libtailscale_go.so": "ab921c6a49b75d38d7b8c3eb986ffd8499bb4a060a40fcddf3c814a25bfc5434"
+  },
+  "remote_hashes_matched": true,
+  "loader_mode": "0755",
+  "loader_owner": "shell",
+  "loader_exit_code": 126,
+  "loader_error": "timeout: exec <temporary-directory>/loader: Permission denied",
+  "library_entrypoints_executed": false,
+  "core_smoke_attempted": false,
+  "temporary_files_removed": true,
+  "finished_at": "2026-11-04T16:59:26.316567+00:00",
+  "next_step": "Validate in an independently signed HAP fixture; do not infer device execution from host builds."
+}

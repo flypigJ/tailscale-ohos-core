@@ -25,6 +25,8 @@ The Linux tests exercise lifecycle, route selection, state backup/leases and fil
 
 ## Device boundary
 
+A supplemental HDC-shell attempt on API 26 (`OpenHarmony-7.0.0.111`, arm64) verified all transferred binary hashes, but the Go example loader could not execute: permission denied, exit 126, despite `0755` mode and shell ownership. The run stopped before trying the core loader. [The receipt](evidence/device-shell-attempt.json) records this as blocked; temporary files were removed. The next step is an independently signed HAP test fixture.
+
 The standalone library produced here has not been loaded into a device application during this extraction. Its successful compilation is not a connectivity, DNS, exit-node, Taildrop or background-lifecycle acceptance test.
 
 MeshArc's earlier K7 acceptance used its own compiler/package identities. Those historical checks motivated the extraction, but they do not certify this newly built standalone library. A consumer must validate packaging, VPN permissions, route protection, account/state migration and real traffic using its own signed application.

@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "source_repository": "https://github.com/flypigJ/Tailscale-OHOS",
-  "source_state": "uncommitted K7 snapshot, 2026-11-04",
+  "source_state": "frozen K7 source-snapshot.zip, 2026-11-04; not the later live working tree",
   "transformations": [
     "module path renamed to github.com/flypigJ/tailscale-ohos-core",
     "local dependency replacement uses .deps/tailscale",
@@ -22,7 +22,7 @@
     },
     {
       "source": "native/go_bridge/backend.go",
-      "source_sha256": "9f22d9c205342fc7c1a5141dba3b82cf3747a258ac8ff2d8dda802c7a21dd4f4",
+      "source_sha256": "f8a83ed767b791c84de3137d90039cb92471b2677a50a1e1a365992e800fd02d",
       "path": "backend.go",
       "extracted_sha256": "475ad23cb700ca3d3543a21b7eb3058249983d9b4c5d5a26801ea61a0a259514"
     },
@@ -64,7 +64,7 @@
     },
     {
       "source": "native/go_bridge/go.mod",
-      "source_sha256": "3e78a72659a48589ff3e37b1f39838020870ed58afc2f5b005eb3e55437b9ca9",
+      "source_sha256": "a5c6d9576712032a8b3856d940319b2f1aad2efaaf897a39f936f63da6562298",
       "path": "go.mod",
       "extracted_sha256": "9bf37ffb491494c1af9328473107fe85bbab859f7382ef9c9b8dbfa6dc70af10"
     },
@@ -88,7 +88,7 @@
     },
     {
       "source": "native/go_bridge/main.go",
-      "source_sha256": "d19c4b953998beffd69f0d1be0337840376d699983d95822c00f9dda07dfeee8",
+      "source_sha256": "256e038bfa0ef02ec13990518acded1754d95f0ffa272969e2ce48b68efb3b10",
       "path": "main.go",
       "extracted_sha256": "2fbaab70ee4bdc1e815c7787c2f6cd12ae684c80a49d755232c152211fe05f71"
     },
@@ -134,5 +134,7 @@
       "path": "vpnroute/routes_test.go",
       "extracted_sha256": "4acad22c3cc22f3cd23e7bbd454b9322b041c69752c6e979bc2369892245687f"
     }
-  ]
+  ],
+  "source_snapshot_sha256": "711f0fc0f036b753955fc77a9464eb59553400f2692c8222c2705d3c31ef1787",
+  "source_acceptance_sha256": "104ea6987782424fc16f3d3d17cac8609622651beee5d4c796c6a9342b026fcd"
 }

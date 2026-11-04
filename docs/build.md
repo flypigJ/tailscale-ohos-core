@@ -22,7 +22,17 @@ The source commit and patch contents are verified before compilation. Existing d
 
 ## Cross-compile on Windows
 
-The following assumes the two public repositories are siblings and DevEco Studio is installed at its standard location:
+The following assumes the two public repositories are siblings and DevEco Studio is installed at its standard location. A newer `go-ohos` default branch is not automatically the core's qualified toolchain. In a clean, dedicated Go checkout, select the exact lock before bootstrapping:
+
+```powershell
+# Run from tailscale-ohos-core; official Go 1.27.3 must be on PATH.
+$bootstrap = go env GOROOT
+$pin = (Get-Content source.json | ConvertFrom-Json).toolchain_commit
+git -C ../go-ohos checkout --detach $pin
+python ../go-ohos/ohos/scripts/manage.py bootstrap --bootstrap $bootstrap
+```
+
+Preserve any changes in an existing Go checkout before switching revisions. If that exact checkout already has a valid bootstrap receipt, the bootstrap step need not be repeated. Then build from the core repository root:
 
 ```powershell
 $goRoot = (Resolve-Path ../go-ohos).Path

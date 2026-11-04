@@ -4,6 +4,8 @@
 
 The scheduled GitHub workflow checks stable upstream tags and the main development branch every day. It maintains one tracking issue when the qualified release or observed branch differs. No change means no issue update. A workflow run can also be started manually.
 
+GitHub Actions dependencies are pinned to full commit hashes. Dependabot is configured to propose grouped weekly action updates; maintainers review release notes and passing CI before merging. Version-update execution on a fork depends on its repository settings, so a configuration file alone is not proof that Dependabot has run.
+
 Monitoring is automatic; integration and validation are separate work. This project does not promise an unconditional same-day release or merge untested upstream code. Security releases take priority over new features. A newly opened tracker means triage is needed, not that the new version is supported.
 
 ## Review an upstream change

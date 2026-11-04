@@ -1,5 +1,7 @@
 # Tailscale OHOS core
 
+[![Host checks](https://github.com/flypigJ/tailscale-ohos-core/actions/workflows/core.yml/badge.svg?branch=main)](https://github.com/flypigJ/tailscale-ohos-core/actions/workflows/core.yml)
+
 A community Tailscale 1.104.5 C ABI for HarmonyOS applications, extracted from MeshArc.
 
 [中文说明](README.zh-CN.md) · [Build](docs/build.md) · [Integration](docs/integration.md) · [C API](docs/api.md) · [Validation](docs/validation.md) · [Maintenance](docs/maintenance.md)

@@ -1,0 +1,9 @@
+{
+  "qualified_tag": "v1.104.5",
+  "observed_mainline_commit": "f851ca27e42dcd1bc32cf48231837b7f92d2775b",
+  "branch": "main",
+  "tag_prefix": "v",
+  "upstream": "tailscale/tailscale",
+  "repository": "flypigJ/tailscale-ohos-core",
+  "use_releases": true
+}

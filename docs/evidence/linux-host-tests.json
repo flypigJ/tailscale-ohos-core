@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "tests_including_subtests": {
+    "pass": 86,
+    "fail": 0,
+    "skip": 0
+  },
+  "top_level_tests_passed": 58,
+  "packages": [
+    "github.com/flypigJ/tailscale-ohos-core/vpnroute",
+    "github.com/flypigJ/tailscale-ohos-core"
+  ],
+  "device_tested": false,
+  "source_digest": "12b70408712b3266367d1e5fca5d635551c5cb0b984d13f7dda9cbb10f4ca572",
+  "go_version": "go version go1.27.3 linux/amd64"
+}

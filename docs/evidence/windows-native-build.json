@@ -1,0 +1,146 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "source_digest": "8bd6c649082e09789704968bba90108920b924bf2933bd06b9d6ac5d83170385",
+  "sources": [
+    {
+      "path": "auth_key.go",
+      "sha256": "6a51da4dd5f6b86ebb6485e6b5d3a496773697a9e6acbb889793b69bcf318527"
+    },
+    {
+      "path": "auth_key_test.go",
+      "sha256": "ab64989c4aede09d67fb68cafbfdecafb9bd7ac585f2a22d188ada949935b294"
+    },
+    {
+      "path": "backend.go",
+      "sha256": "475ad23cb700ca3d3543a21b7eb3058249983d9b4c5d5a26801ea61a0a259514"
+    },
+    {
+      "path": "backend_lifecycle_test.go",
+      "sha256": "b0377cda9ecdb65d8e4caf3b97f14a82dfcb852eb04a14da227c6e4088efede0"
+    },
+    {
+      "path": "backend_test.go",
+      "sha256": "4271021916f6a98825175297e012de16feb8785bebd09b5a42a5ea468565f640"
+    },
+    {
+      "path": "control_probe.go",
+      "sha256": "ec490cb0d40b641d3b92bacb4b08429b70e214cfb81055dd271ac0f66fb4eb82"
+    },
+    {
+      "path": "control_probe_test.go",
+      "sha256": "3b368a8b1ead84d51a27e95584fd6f2233cc554c75012d75ecc90363bceb7415"
+    },
+    {
+      "path": "engine_upgrade.go",
+      "sha256": "6f8249a8a6507ac52d55775dd456d5669b6d7fb0a0e9610e66eb438326c071eb"
+    },
+    {
+      "path": "engine_upgrade_test.go",
+      "sha256": "8e6cfae6e4b0bedd5be3f91a70ba79579f12796aebf2da7567315c8d450b62ae"
+    },
+    {
+      "path": "examples/smoke.c",
+      "sha256": "8d7bf9fcb744b1bdcdbeff56e313abb7bf3b29048c31b7ecc3c477be57402e8b"
+    },
+    {
+      "path": "go.mod",
+      "sha256": "9bf37ffb491494c1af9328473107fe85bbab859f7382ef9c9b8dbfa6dc70af10"
+    },
+    {
+      "path": "go.sum",
+      "sha256": "05179c731b37f797519a51ed3b71cdc9b13ec9aee26388124248eb3720b8f540"
+    },
+    {
+      "path": "harmony_tun.go",
+      "sha256": "4e8ae2f912565675f75daad28fbf5a60c11485c48a15525db39e3309aa32e5b5"
+    },
+    {
+      "path": "harmony_tun_test.go",
+      "sha256": "9cab9747859eeca1f0d7a08acd268743777bf686d96cc77833b3c5fe238095a2"
+    },
+    {
+      "path": "include/tailscale_ohos.h",
+      "sha256": "9d51f74fbdda4bbbfaa7587addc385ec0a6715cee254c3a4d7eb4e9d70897219"
+    },
+    {
+      "path": "main.go",
+      "sha256": "2fbaab70ee4bdc1e815c7787c2f6cd12ae684c80a49d755232c152211fe05f71"
+    },
+    {
+      "path": "mesharc_devices.go",
+      "sha256": "42c333207c6877fc05e17fe9cd076a70754f2b92a20a1df83526579d04ac7144"
+    },
+    {
+      "path": "mesharc_devices_test.go",
+      "sha256": "059583876e114a2f918be14abbbd5b77a69434a35a39d61e2fa1e9b3dfc26645"
+    },
+    {
+      "path": "patches/LICENSE-Tailscale",
+      "sha256": "49285a0a47b8c9e9b00714397961f25abe0ac91ed6b98507ab9e8efdcbe53eba"
+    },
+    {
+      "path": "patches/cold-peer.patch",
+      "sha256": "70a7ec0553f7ed28aaee30eb5d163e606cec3387157bd7fbf6915d2b61528d40"
+    },
+    {
+      "path": "patches/platform.patch",
+      "sha256": "ba04cf9399d7c4922ba5c70d09f4539c5dc34730518af1e73811b641d61f1b6b"
+    },
+    {
+      "path": "path_diagnostics.go",
+      "sha256": "aa5c83b92266a200a945a95b37519fcc62686d93c51954e9e82055a3ea59d9b8"
+    },
+    {
+      "path": "scripts/check_api.py",
+      "sha256": "77fbbecd13e349313cd928a2d865c08ab2ef84f5246bd92780f18ec48e4b52e3"
+    },
+    {
+      "path": "scripts/check_docs.py",
+      "sha256": "5c60f64bf3460480f9649f70344b9001f569167851a82426dd85d924ecaf9756"
+    },
+    {
+      "path": "scripts/common.py",
+      "sha256": "1fbc9fbd72287551667a3141aa5fbe6b4180f95182058a092c6c9edc5c252436"
+    },
+    {
+      "path": "scripts/manage.py",
+      "sha256": "b9f1d08b67960712ce4356e18201ad4ce23ab4a7428e99f200bd33ec08f7e30a"
+    },
+    {
+      "path": "scripts/upstream.py",
+      "sha256": "5c87b742ce8f9dc4c95e734eb152ecee722acdfed482131a117c4be08a5b5d34"
+    },
+    {
+      "path": "source.json",
+      "sha256": "6ac1332710d106fbae62132b5935b5038ceba707a419927c0f7eb8a4fc3dc5ff"
+    },
+    {
+      "path": "taildrive.go",
+      "sha256": "642b98bb1b60d52a3ac9de55e87d563b8d21bcf0cbad414c5ec9ce4fef2f7ae3"
+    },
+    {
+      "path": "tun_probe.go",
+      "sha256": "1b85b29095cb301ab73d9afa75f3a4918fe19b63ec4a0336b527f4b99b07364b"
+    },
+    {
+      "path": "vpnroute/routes.go",
+      "sha256": "f7c4b65999f1cdfae37bf3f6938b7ebedb7570c53248fff2add1027a477f732b"
+    },
+    {
+      "path": "vpnroute/routes_test.go",
+      "sha256": "4acad22c3cc22f3cd23e7bbd454b9322b041c69752c6e979bc2369892245687f"
+    }
+  ],
+  "toolchain_identity": "go1.27.3-ohos-devel",
+  "toolchain_commit": "9f8bcc797b210e67c32e538df4af4293cf420d0e",
+  "compiler_sha256": "258c4dba397613c6587f297a6eed00d81211fbe03bfd942dabf4371f8a122953",
+  "sdk_version": "26.0.0.105",
+  "device_tested": false,
+  "library_sha256": "ab921c6a49b75d38d7b8c3eb986ffd8499bb4a060a40fcddf3c814a25bfc5434",
+  "header_sha256": "d4d0be593661d13a723e73a35837b2b1dfe8030c9fe5a87698b07d19aad285cf",
+  "smoke_sha256": "95a6787b1f838478e66703b0e4bc124fa64c558b6516d865fa75b3ffabd2330a",
+  "c_exports": 41,
+  "elf_tls": "AArch64 TLSDESC; no initial-exec relocation",
+  "finished_at": "2026-11-04T16:44:10.752655+00:00"
+}

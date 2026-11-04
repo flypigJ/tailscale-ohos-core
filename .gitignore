@@ -1,0 +1,13 @@
+/.deps/
+/.cache/
+/out/
+__pycache__/
+*.pyc
+*.hap
+*.app
+*.p12
+*.p7b
+*.jks
+*.keystore
+local.properties
+build-profile.json5

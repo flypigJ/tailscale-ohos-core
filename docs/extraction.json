@@ -1,0 +1,138 @@
+{
+  "schema": 1,
+  "source_repository": "https://github.com/flypigJ/Tailscale-OHOS",
+  "source_state": "uncommitted K7 snapshot, 2026-11-04",
+  "transformations": [
+    "module path renamed to github.com/flypigJ/tailscale-ohos-core",
+    "local dependency replacement uses .deps/tailscale",
+    "text line endings normalized to LF"
+  ],
+  "files": [
+    {
+      "source": "native/go_bridge/auth_key.go",
+      "source_sha256": "6a51da4dd5f6b86ebb6485e6b5d3a496773697a9e6acbb889793b69bcf318527",
+      "path": "auth_key.go",
+      "extracted_sha256": "6a51da4dd5f6b86ebb6485e6b5d3a496773697a9e6acbb889793b69bcf318527"
+    },
+    {
+      "source": "native/go_bridge/auth_key_test.go",
+      "source_sha256": "ab64989c4aede09d67fb68cafbfdecafb9bd7ac585f2a22d188ada949935b294",
+      "path": "auth_key_test.go",
+      "extracted_sha256": "ab64989c4aede09d67fb68cafbfdecafb9bd7ac585f2a22d188ada949935b294"
+    },
+    {
+      "source": "native/go_bridge/backend.go",
+      "source_sha256": "9f22d9c205342fc7c1a5141dba3b82cf3747a258ac8ff2d8dda802c7a21dd4f4",
+      "path": "backend.go",
+      "extracted_sha256": "475ad23cb700ca3d3543a21b7eb3058249983d9b4c5d5a26801ea61a0a259514"
+    },
+    {
+      "source": "native/go_bridge/backend_lifecycle_test.go",
+      "source_sha256": "b0377cda9ecdb65d8e4caf3b97f14a82dfcb852eb04a14da227c6e4088efede0",
+      "path": "backend_lifecycle_test.go",
+      "extracted_sha256": "b0377cda9ecdb65d8e4caf3b97f14a82dfcb852eb04a14da227c6e4088efede0"
+    },
+    {
+      "source": "native/go_bridge/backend_test.go",
+      "source_sha256": "9de144da907e03dc4e4b99b40f0e19b807f10fdcf8c2253e954c59c51a97c7cf",
+      "path": "backend_test.go",
+      "extracted_sha256": "4271021916f6a98825175297e012de16feb8785bebd09b5a42a5ea468565f640"
+    },
+    {
+      "source": "native/go_bridge/control_probe.go",
+      "source_sha256": "54be154ecf5f137e74fa63bdfc5eb34db15a1a1e98574dc1c02dd1dfe7ef21d8",
+      "path": "control_probe.go",
+      "extracted_sha256": "ec490cb0d40b641d3b92bacb4b08429b70e214cfb81055dd271ac0f66fb4eb82"
+    },
+    {
+      "source": "native/go_bridge/control_probe_test.go",
+      "source_sha256": "78fd29afc5df9dea7d522983a08ccc45608e6bbc8ef1f754750ae1103fd7690c",
+      "path": "control_probe_test.go",
+      "extracted_sha256": "3b368a8b1ead84d51a27e95584fd6f2233cc554c75012d75ecc90363bceb7415"
+    },
+    {
+      "source": "native/go_bridge/engine_upgrade.go",
+      "source_sha256": "6f8249a8a6507ac52d55775dd456d5669b6d7fb0a0e9610e66eb438326c071eb",
+      "path": "engine_upgrade.go",
+      "extracted_sha256": "6f8249a8a6507ac52d55775dd456d5669b6d7fb0a0e9610e66eb438326c071eb"
+    },
+    {
+      "source": "native/go_bridge/engine_upgrade_test.go",
+      "source_sha256": "8e6cfae6e4b0bedd5be3f91a70ba79579f12796aebf2da7567315c8d450b62ae",
+      "path": "engine_upgrade_test.go",
+      "extracted_sha256": "8e6cfae6e4b0bedd5be3f91a70ba79579f12796aebf2da7567315c8d450b62ae"
+    },
+    {
+      "source": "native/go_bridge/go.mod",
+      "source_sha256": "3e78a72659a48589ff3e37b1f39838020870ed58afc2f5b005eb3e55437b9ca9",
+      "path": "go.mod",
+      "extracted_sha256": "9bf37ffb491494c1af9328473107fe85bbab859f7382ef9c9b8dbfa6dc70af10"
+    },
+    {
+      "source": "native/go_bridge/go.sum",
+      "source_sha256": "642a396d12784a8ba23722cd28c7278dd3c7357771e8727904a7800374f43145",
+      "path": "go.sum",
+      "extracted_sha256": "05179c731b37f797519a51ed3b71cdc9b13ec9aee26388124248eb3720b8f540"
+    },
+    {
+      "source": "native/go_bridge/harmony_tun.go",
+      "source_sha256": "8b10e025a336708d6c719a67ff7f653bad879b9bc9520411bb3920aee94fa73f",
+      "path": "harmony_tun.go",
+      "extracted_sha256": "4e8ae2f912565675f75daad28fbf5a60c11485c48a15525db39e3309aa32e5b5"
+    },
+    {
+      "source": "native/go_bridge/harmony_tun_test.go",
+      "source_sha256": "7038d0f92b397243c18f112c2e13d22dba117ad2f532ef474cac6c19398ddbae",
+      "path": "harmony_tun_test.go",
+      "extracted_sha256": "9cab9747859eeca1f0d7a08acd268743777bf686d96cc77833b3c5fe238095a2"
+    },
+    {
+      "source": "native/go_bridge/main.go",
+      "source_sha256": "d19c4b953998beffd69f0d1be0337840376d699983d95822c00f9dda07dfeee8",
+      "path": "main.go",
+      "extracted_sha256": "2fbaab70ee4bdc1e815c7787c2f6cd12ae684c80a49d755232c152211fe05f71"
+    },
+    {
+      "source": "native/go_bridge/mesharc_devices.go",
+      "source_sha256": "b649328dc9afa3c6b9f3ea53ecc1ecc53f7d9819acbacfc6d513aa63a1a6205f",
+      "path": "mesharc_devices.go",
+      "extracted_sha256": "42c333207c6877fc05e17fe9cd076a70754f2b92a20a1df83526579d04ac7144"
+    },
+    {
+      "source": "native/go_bridge/mesharc_devices_test.go",
+      "source_sha256": "427e0cd3fcbb2060c8dbe82daece968b02190c77f9349897fa3cfdabdba7954b",
+      "path": "mesharc_devices_test.go",
+      "extracted_sha256": "059583876e114a2f918be14abbbd5b77a69434a35a39d61e2fa1e9b3dfc26645"
+    },
+    {
+      "source": "native/go_bridge/path_diagnostics.go",
+      "source_sha256": "41d2180a87a2c0bfd67270d2bb3f557fbaea9d64b7f146c7819678c5484d56e8",
+      "path": "path_diagnostics.go",
+      "extracted_sha256": "aa5c83b92266a200a945a95b37519fcc62686d93c51954e9e82055a3ea59d9b8"
+    },
+    {
+      "source": "native/go_bridge/taildrive.go",
+      "source_sha256": "26af74a881ba1c739d53c57b2be3e6e9f8f73ec24e97122b75d63c0b73d75699",
+      "path": "taildrive.go",
+      "extracted_sha256": "642b98bb1b60d52a3ac9de55e87d563b8d21bcf0cbad414c5ec9ce4fef2f7ae3"
+    },
+    {
+      "source": "native/go_bridge/tun_probe.go",
+      "source_sha256": "1b85b29095cb301ab73d9afa75f3a4918fe19b63ec4a0336b527f4b99b07364b",
+      "path": "tun_probe.go",
+      "extracted_sha256": "1b85b29095cb301ab73d9afa75f3a4918fe19b63ec4a0336b527f4b99b07364b"
+    },
+    {
+      "source": "native/go_bridge/vpnroute/routes.go",
+      "source_sha256": "db228d028d83f46e1d25ac7f0c2ab470f83396101bb50a518fd3f4c0696d8487",
+      "path": "vpnroute/routes.go",
+      "extracted_sha256": "f7c4b65999f1cdfae37bf3f6938b7ebedb7570c53248fff2add1027a477f732b"
+    },
+    {
+      "source": "native/go_bridge/vpnroute/routes_test.go",
+      "source_sha256": "aa3c1e0920125a914d1d8f64f7be2ff0c0bb5284622d238a1b8a30a658b9e6c6",
+      "path": "vpnroute/routes_test.go",
+      "extracted_sha256": "4acad22c3cc22f3cd23e7bbd454b9322b041c69752c6e979bc2369892245687f"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Describe the concrete problem and resulting behavior.
+
+Validation:
+- Commands and results, tied to the source/toolchain/SDK revision.
+- Device checks performed, or explicitly not run.
+
+Compatibility and provenance:
+- Any C ABI, persistence, runtime or platform behavior change.
+- Upstream patches retained, dropped or added, with source links.
+- Documentation and source manifests updated where applicable.

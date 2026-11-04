@@ -1,0 +1,25 @@
+name: Build or runtime defect
+description: A reproducible problem in this community port
+body:
+  - type: markdown
+    attributes:
+      value: Do not include authentication URLs, credentials, private account state or signing files. Use private vulnerability reporting for sensitive findings.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Source and environment
+      description: Repository commit, Go identity, host OS/architecture, SDK version, target device OS/API. State whether the failure is on the host or device.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Exact commands or minimal source, expected behavior and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Redacted evidence
+      description: Relevant error or receipt. State which checks passed, failed or were not run.

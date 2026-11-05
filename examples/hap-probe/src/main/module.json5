@@ -1,0 +1,27 @@
+{
+  "module": {
+    "name": "portprobe",
+    "type": "feature",
+    "description": "$string:probe_desc",
+    "mainElement": "PortProbeAbility",
+    "deviceTypes": [
+      "phone",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": false,
+    "installationFree": false,
+    "pages": "$profile:main_pages",
+    "abilities": [
+      {
+        "name": "PortProbeAbility",
+        "srcEntry": "./ets/probe/PortProbeAbility.ets",
+        "exported": true,
+        "icon": "$media:app_icon",
+        "label": "$string:probe_desc",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background"
+      }
+    ]
+  }
+}

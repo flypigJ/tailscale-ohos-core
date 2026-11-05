@@ -5,7 +5,7 @@ import sys
 from urllib.parse import unquote
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else ".").resolve()
-patterns = ["README*.md", "NOTICE.md", "CONTRIBUTING.md", "SECURITY.md", "docs/**/*.md", "ohos/**/*.md"]
+patterns = ["README*.md", "NOTICE.md", "CONTRIBUTING.md", "SECURITY.md", "docs/**/*.md", "ohos/**/*.md", "examples/**/*.md"]
 files = sorted({p for pattern in patterns for p in root.glob(pattern) if "/out/" not in p.as_posix() and p.name != "README.upstream.md"})
 errors = []
 for file in files:

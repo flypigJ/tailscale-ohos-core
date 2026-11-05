@@ -4,6 +4,8 @@
 
 这是**开发者预览**，不是完整 VPN 应用，也不是 Tailscale 官方发行版。当前目标为 **Tailscale 1.104.5、HarmonyOS API 26、arm64**；工具链固定到独立 Go 仓库的具体提交。公开核心的验证范围见 [validation](docs/validation.md)，不能直接把原应用的所有真机结果当作新仓库已经复测。
 
+2026-11-05 已补充新产物的真机 Debug HAP 验证：Go 示例与核心各通过 3 次冷启动、1,200 次跨线程 CGO 回调，核心的 41 个导出、版本和无登录引擎初始化通过。[测试源码与复现步骤](examples/hap-probe/README.md)、库哈希和逐次结果均已公开；不代表完整 VPN 或后台生命周期验收。
+
 ## 从哪里开始
 
 1. 阅读 [英文首页](README.md) 的 Linux 主机测试命令。

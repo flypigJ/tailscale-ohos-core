@@ -1,0 +1,12 @@
+11-05 13:07:07.811  6691  6691 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-go-1793855227238566000
+11-05 13:07:08.004  6691  6691 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-go-1793855227238566000 {"schema":1,"mode":"go","passed":true,"exports":2,"threads":4,"callbacks":400,"failures":0,"versionMatched":null,"backendStopped":null,"engineInitialized":null,"mediaSelfTest":null}
+11-05 13:07:10.978  6727  6727 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-go-1793855230536874300
+11-05 13:07:11.126  6727  6727 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-go-1793855230536874300 {"schema":1,"mode":"go","passed":true,"exports":2,"threads":4,"callbacks":400,"failures":0,"versionMatched":null,"backendStopped":null,"engineInitialized":null,"mediaSelfTest":null}
+11-05 13:07:13.972  7114  7114 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-go-1793855233562441200
+11-05 13:07:14.123  7114  7114 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-go-1793855233562441200 {"schema":1,"mode":"go","passed":true,"exports":2,"threads":4,"callbacks":400,"failures":0,"versionMatched":null,"backendStopped":null,"engineInitialized":null,"mediaSelfTest":null}
+11-05 13:07:17.107  7356  7356 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-core-1793855236629837700
+11-05 13:07:17.216  7356  7356 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-core-1793855236629837700 {"schema":1,"mode":"core","passed":true,"exports":41,"threads":4,"callbacks":400,"failures":0,"versionMatched":true,"backendStopped":true,"engineInitialized":true,"mediaSelfTest":true}
+11-05 13:07:20.116  7536  7536 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-core-1793855239696740000
+11-05 13:07:20.212  7536  7536 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-core-1793855239696740000 {"schema":1,"mode":"core","passed":true,"exports":41,"threads":4,"callbacks":400,"failures":0,"versionMatched":true,"backendStopped":true,"engineInitialized":true,"mediaSelfTest":true}
+11-05 13:07:23.165  7694  7694 I A00000/io.github.tailscaleohos/PortProbe: BEGIN port-core-1793855242753029000
+11-05 13:07:23.258  7694  7694 I A00000/io.github.tailscaleohos/PortProbe: RESULT port-core-1793855242753029000 {"schema":1,"mode":"core","passed":true,"exports":41,"threads":4,"callbacks":400,"failures":0,"versionMatched":true,"backendStopped":true,"engineInitialized":true,"mediaSelfTest":true}

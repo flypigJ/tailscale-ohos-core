@@ -25,10 +25,14 @@ The Linux tests exercise lifecycle, route selection, state backup/leases and fil
 
 ## Device boundary
 
-A supplemental HDC-shell attempt on API 26 (`OpenHarmony-7.0.0.111`, arm64) verified all transferred binary hashes, but the Go example loader could not execute: permission denied, exit 126, despite `0755` mode and shell ownership. The run stopped before trying the core loader. [The receipt](evidence/device-shell-attempt.json) records this as blocked; temporary files were removed. The next step is an independently signed HAP test fixture.
+A supplemental HDC-shell attempt on API 26 (`OpenHarmony-7.0.0.111`, arm64) verified all transferred binary hashes, but the Go example loader could not execute: permission denied, exit 126, despite `0755` mode and shell ownership. The run stopped before trying the core loader. [The receipt](evidence/device-shell-attempt.json) records this as blocked; temporary files were removed. That historical restriction remains recorded; the following application-context check uses a signed Debug feature HAP.
 
-The standalone library produced here has not been loaded into a device application during this extraction. Its successful compilation is not a connectivity, DNS, exit-node, Taildrop or background-lifecycle acceptance test.
+On 2026-11-05, the newly built standalone core and Go example both executed inside a signed Debug feature HAP on that device. Each library passed three cold-process runs, with four native threads and 400 CGO callbacks per run (1,200 callbacks per library, zero failures). The core resolved all 41 exports, matched Tailscale 1.104.5, reported a stopped backend, passed the four-case media self-test, and created/closed the userspace engine without login.
+
+The [HAP receipt](evidence/device-hap-probe.json) records exact source/compiler/library/package hashes and each run's result and process ID; the [probe log](evidence/device-hap-probe.log) records all six BEGIN/RESULT pairs. Hvigor's packaged libraries matched independently stripped inputs byte for byte. The temporary feature was removed afterward, the entry module metadata and selected app identity/state fields were unchanged, and the normal application was reopened. This comparison is not a byte-for-byte audit of all application data.
+
+This is a bounded loading/CGO/engine check. It is not a connectivity, DNS, exit-node, Taildrop or background-lifecycle acceptance test.
 
 MeshArc's earlier K7 acceptance used its own compiler/package identities. Those historical checks motivated the extraction, but they do not certify this newly built standalone library. A consumer must validate packaging, VPN permissions, route protection, account/state migration and real traffic using its own signed application.
 
-There is no full signed sample HAP and no exported automatic rollback utility. [The C smoke example](../examples/smoke.c) is a minimal loader/ownership check; [Integration](integration.md) explains the application responsibilities and state-restoration limits.
+The tested [HAP probe sources and reproduction steps](../examples/hap-probe/README.md) are published. There is no distributable signed HAP, complete DevEco sample project or exported automatic rollback utility. [The C smoke example](../examples/smoke.c) is a minimal loader/ownership check; [Integration](integration.md) explains the application responsibilities and state-restoration limits.

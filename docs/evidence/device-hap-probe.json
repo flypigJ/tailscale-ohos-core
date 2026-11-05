@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "kind": "signed_debug_hap_device_probe",
+  "status": "passed",
+  "startedAt": "2026-11-05T05:07:07.238566+00:00",
+  "finishedAt": "2026-11-05T05:07:25.245892+00:00",
+  "device": {
+    "os": "OpenHarmony-7.0.0.111",
+    "api": 26,
+    "architecture": "aarch64"
+  },
+  "sdk": "26.0.0.105",
+  "toolchain": {
+    "qualifiedCommit": "9f8bcc797b210e67c32e538df4af4293cf420d0e",
+    "version": "go1.27.3-ohos-devel",
+    "windowsGoExeSha256": "258c4dba397613c6587f297a6eed00d81211fbe03bfd942dabf4371f8a122953",
+    "sourceManifestSha256": "cf367683c42392d7f8092d6fc8e60bc6a2857232d62840bde648ca8e10ed2363"
+  },
+  "coreSourceCommit": "d58f693f04d5da16852e542659fb17f864cb0c82",
+  "hap": {
+    "sha256": "240b07cf658c7d328142c0d7c87d629ad941bd34cb6e31c9e5a42c374191d4e5",
+    "module": "portprobe",
+    "type": "feature",
+    "debug": true,
+    "signatureVerified": true,
+    "sameInstalledSignerVerified": true,
+    "distribution": "local only; signing materials and package not published"
+  },
+  "libraries": {
+    "libohos_example.so": {
+      "sourceSha256": "391e21ac70da4f9a06f57f01e95334b04b067b83d70d8551a22ea3f85aa09d74",
+      "packagedSha256": "3e93143aeae26cc95613130ee1913dbf93fa63cff8635955e6a8756079c23992",
+      "transform": "llvm-strip --strip-all"
+    },
+    "libportprobe_core.so": {
+      "sourceSha256": "ab921c6a49b75d38d7b8c3eb986ffd8499bb4a060a40fcddf3c814a25bfc5434",
+      "packagedSha256": "f2a3d0ad4ea25d517116e4087b7c21d5d099b7839c98cad6e5477fb4ab2315a6",
+      "transform": "llvm-strip --strip-all"
+    }
+  },
+  "probeSourceRepository": "https://github.com/flypigJ/tailscale-ohos-core",
+  "probeSourceSha256": {
+    "examples/hap-probe/src/main/cpp/probe.cpp": "c28999d4b465f5ef468b1c69d8de434472c7196e5b5cae892cc61102279ffd5a",
+    "examples/hap-probe/src/main/cpp/exports.inc": "d406ca9289e869aa86825ffb4ea669e9565b6652ac1b842df5c1b4789c1cc1f6",
+    "examples/hap-probe/src/main/cpp/CMakeLists.txt": "1721a1d77a42749d23e0d31ea1180547eb4c7186758841b3d9ac1f404bfb5561",
+    "examples/hap-probe/src/main/cpp/types/libportprobe/index.d.ts": "e77a5da0ee1a4507619e9364b8b1864adace9c51cef23d3309836237339c1c8d",
+    "examples/hap-probe/src/main/cpp/types/libportprobe/oh-package.json5": "4f235cfc580e3f3f6616a46c00e3534093d94323c89804f753535268c763f96f",
+    "examples/hap-probe/src/main/ets/probe/PortProbeAbility.ets": "c7cad6d684f52bb0047ad2170609ba88173d7ef5dc4a6f039eed5f388d427cc9",
+    "examples/hap-probe/src/main/ets/pages/Probe.ets": "373ab098e75b66ecfe3665fdf01dd573e956fb7eadd508aed281705e20a63a84",
+    "examples/hap-probe/src/main/module.json5": "0c040dc4ff7519364730bfcb72a2b42c5f63a67e6dc8f9a36a0f7d7084cb1f29",
+    "examples/hap-probe/src/main/resources/base/element/string.json": "8faa73e3c6cf223df587e977b7c5f4aa959da1df2f211a5c9189b95ae30ff886",
+    "examples/hap-probe/src/main/resources/base/element/color.json": "61ea8c3b31beb5ebbedb7e5330f0980c18d1ebd7aa593421d7dcce95706520b6",
+    "examples/hap-probe/src/main/resources/base/profile/main_pages.json": "e83ee11ff088a16d4ac457fbc54a003747c7b42fd1de4c8ebe9616c137a840b2"
+  },
+  "runs": [
+    {
+      "id": "port-go-1793855227238566000",
+      "mode": "go",
+      "iteration": 1,
+      "result": {
+        "schema": 1,
+        "mode": "go",
+        "passed": true,
+        "exports": 2,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": null,
+        "backendStopped": null,
+        "engineInitialized": null,
+        "mediaSelfTest": null
+      },
+      "processId": 6691
+    },
+    {
+      "id": "port-go-1793855230536874300",
+      "mode": "go",
+      "iteration": 2,
+      "result": {
+        "schema": 1,
+        "mode": "go",
+        "passed": true,
+        "exports": 2,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": null,
+        "backendStopped": null,
+        "engineInitialized": null,
+        "mediaSelfTest": null
+      },
+      "processId": 6727
+    },
+    {
+      "id": "port-go-1793855233562441200",
+      "mode": "go",
+      "iteration": 3,
+      "result": {
+        "schema": 1,
+        "mode": "go",
+        "passed": true,
+        "exports": 2,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": null,
+        "backendStopped": null,
+        "engineInitialized": null,
+        "mediaSelfTest": null
+      },
+      "processId": 7114
+    },
+    {
+      "id": "port-core-1793855236629837700",
+      "mode": "core",
+      "iteration": 1,
+      "result": {
+        "schema": 1,
+        "mode": "core",
+        "passed": true,
+        "exports": 41,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": true,
+        "backendStopped": true,
+        "engineInitialized": true,
+        "mediaSelfTest": true
+      },
+      "processId": 7356
+    },
+    {
+      "id": "port-core-1793855239696740000",
+      "mode": "core",
+      "iteration": 2,
+      "result": {
+        "schema": 1,
+        "mode": "core",
+        "passed": true,
+        "exports": 41,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": true,
+        "backendStopped": true,
+        "engineInitialized": true,
+        "mediaSelfTest": true
+      },
+      "processId": 7536
+    },
+    {
+      "id": "port-core-1793855242753029000",
+      "mode": "core",
+      "iteration": 3,
+      "result": {
+        "schema": 1,
+        "mode": "core",
+        "passed": true,
+        "exports": 41,
+        "threads": 4,
+        "callbacks": 400,
+        "failures": 0,
+        "versionMatched": true,
+        "backendStopped": true,
+        "engineInitialized": true,
+        "mediaSelfTest": true
+      },
+      "processId": 7694
+    }
+  ],
+  "cleanup": {
+    "featureRemoved": true,
+    "entryMetadataUnchanged": true,
+    "appIdentityPreserved": true,
+    "connectionIntentUnchanged": true,
+    "normalAppLaunched": true
+  },
+  "notEstablished": [
+    "full target standard-library suite",
+    "signal and lifecycle stress",
+    "VPN authentication or end-to-end traffic",
+    "MagicDNS, exit-node, Taildrop or Taildrive integration",
+    "other devices, architectures or OS releases"
+  ],
+  "notes": [
+    "Each run used a different process ID after aa force-stop.",
+    "Core-only result fields are null in Go example mode.",
+    "Entry metadata and selected app identity/state fields were compared; this is not a byte-for-byte audit of all application data.",
+    "Published probe sources normalize CRLF to LF only; both original build-input and published source hashes are recorded."
+  ],
+  "builtProbeSourceSha256": {
+    "examples/hap-probe/src/main/cpp/probe.cpp": "71741a19069e5aab8168d7908f9e8ae821922167eec5895a0ddeaf53338ca9dc",
+    "examples/hap-probe/src/main/cpp/exports.inc": "d406ca9289e869aa86825ffb4ea669e9565b6652ac1b842df5c1b4789c1cc1f6",
+    "examples/hap-probe/src/main/cpp/CMakeLists.txt": "1721a1d77a42749d23e0d31ea1180547eb4c7186758841b3d9ac1f404bfb5561",
+    "examples/hap-probe/src/main/cpp/types/libportprobe/index.d.ts": "e77a5da0ee1a4507619e9364b8b1864adace9c51cef23d3309836237339c1c8d",
+    "examples/hap-probe/src/main/cpp/types/libportprobe/oh-package.json5": "4f235cfc580e3f3f6616a46c00e3534093d94323c89804f753535268c763f96f",
+    "examples/hap-probe/src/main/ets/probe/PortProbeAbility.ets": "c7cad6d684f52bb0047ad2170609ba88173d7ef5dc4a6f039eed5f388d427cc9",
+    "examples/hap-probe/src/main/ets/pages/Probe.ets": "373ab098e75b66ecfe3665fdf01dd573e956fb7eadd508aed281705e20a63a84",
+    "examples/hap-probe/src/main/module.json5": "0c040dc4ff7519364730bfcb72a2b42c5f63a67e6dc8f9a36a0f7d7084cb1f29",
+    "examples/hap-probe/src/main/resources/base/element/string.json": "8faa73e3c6cf223df587e977b7c5f4aa959da1df2f211a5c9189b95ae30ff886",
+    "examples/hap-probe/src/main/resources/base/element/color.json": "61ea8c3b31beb5ebbedb7e5330f0980c18d1ebd7aa593421d7dcce95706520b6",
+    "examples/hap-probe/src/main/resources/base/profile/main_pages.json": "e83ee11ff088a16d4ac457fbc54a003747c7b42fd1de4c8ebe9616c137a840b2"
+  }
+}

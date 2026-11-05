@@ -8,6 +8,8 @@ A community Tailscale 1.104.5 C ABI for HarmonyOS applications, extracted from M
 
 **Developer preview.** This is a native library, not a complete VPN app or an official Tailscale distribution. The qualified target is **HarmonyOS API 26 / arm64**. Building it requires the separately prepared [OpenHarmony Go port](https://github.com/flypigJ/go-ohos) and Huawei's matching native SDK. A successful host test does not prove device connectivity.
 
+The published native outputs passed a [signed-HAP device probe](docs/validation.md): three cold starts per library, 1,200 threaded CGO callbacks per library, and core export/version/engine checks. [Probe sources](examples/hap-probe/README.md) and hash-bound receipts are included; VPN traffic and lifecycle acceptance remain separate.
+
 ## What this repository provides
 
 - The MeshArc Go bridge, its 41-function C interface and behavioral tests.

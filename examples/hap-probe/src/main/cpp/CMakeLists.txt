@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.5.0)
+project(portprobe)
+add_library(portprobe SHARED probe.cpp)
+target_compile_options(portprobe PRIVATE -Wall -Wextra -Werror -Wno-deprecated-declarations -Wno-unused-command-line-argument)
+target_link_libraries(portprobe PRIVATE libace_napi.z.so dl pthread)
